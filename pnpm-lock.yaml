@@ -1,9 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@mdi/js': ^7.0.96
   '@sveltejs/vite-plugin-svelte': ^1.1.0
   svelte: ^3.52.0
   vite: ^3.2.3
+
+dependencies:
+  '@mdi/js': 7.0.96
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 1.2.0_svelte@3.53.1+vite@3.2.4
@@ -29,6 +33,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@mdi/js/7.0.96:
+    resolution: {integrity: sha512-lNqhkV3cpPfYb/Avh+vXLFukUTbHbyHoFo4Jdc7Oc9UvURGVhamFIpgOVvEf2bNA78zvjXTZeVWExUTR+DLBfQ==}
+    dev: false
 
   /@sveltejs/vite-plugin-svelte/1.2.0_svelte@3.53.1+vite@3.2.4:
     resolution: {integrity: sha512-DT2oUkWAloH1tO7X5cQ4uDxQofaIS76skyFMElKtoqT6HJao+D82LI5i+0jPaSSmO7ex3Pa6jGYMlWy9ZJ1cdQ==}

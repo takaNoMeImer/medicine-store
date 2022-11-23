@@ -1,14 +1,167 @@
 [
     {
-        "name": "Farmacia 1"
+        "name": "Farmacia 1",
+        "categorias": [
+            {
+                "name": "ANALGÉSICOS OPIODES",
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+            },
+            {
+                "name": "ANALGÉSICOS",
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+            },
+            {
+                "name": "ANTIÁCIDOS",
+                "value": ["Almagato","Sucralfato","Tramadol"]
+            },
+            {
+                "name": "ANTIULCEROS / PROTECTOR GASTRICO",
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+            },
+            {
+                "name": "ANTIBIÓTICOS",
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+            },
+            {
+                "name": "ANTIDIARRÉICOS",
+                "value": ["Loperemida", "Alka", "Ad"]
+            },
+            {
+                "name": "LAXANTES",
+                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+            },
+            {
+                "name": "ANTIFÚNGICOS",
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+            },
+            {
+                "name": "ANTIHISTAMÍNICOS",
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+            }
+        ]
+
     },
     {
-        "name": "Farmacia 2"
+        "name": "Farmacia 2",
+        "categorias": [
+            {
+                "name": "ANALGÉSICOS OPIODES",
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+            },
+            {
+                "name": "ANALGÉSICOS",
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+            },
+            {
+                "name": "ANTIÁCIDOS",
+                "value": ["Almagato","Sucralfato","Tramadol"]
+            },
+            {
+                "name": "ANTIULCEROS / PROTECTOR GASTRICO",
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+            },
+            {
+                "name": "ANTIBIÓTICOS",
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+            },
+            {
+                "name": "ANTIDIARRÉICOS",
+                "value": ["Loperemida", "Alka", "Ad"]
+            },
+            {
+                "name": "LAXANTES",
+                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+            },
+            {
+                "name": "ANTIFÚNGICOS",
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+            },
+            {
+                "name": "ANTIHISTAMÍNICOS",
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+            }
+        ]
     },
     {
-        "name": "Farmacia 3"
+        "name": "Farmacia 3",
+        "categorias": [
+            {
+                "name": "ANALGÉSICOS OPIODES",
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+            },
+            {
+                "name": "ANALGÉSICOS",
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+            },
+            {
+                "name": "ANTIÁCIDOS",
+                "value": ["Almagato","Sucralfato","Tramadol"]
+            },
+            {
+                "name": "ANTIULCEROS / PROTECTOR GASTRICO",
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+            },
+            {
+                "name": "ANTIBIÓTICOS",
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+            },
+            {
+                "name": "ANTIDIARRÉICOS",
+                "value": ["Loperemida", "Alka", "Ad"]
+            },
+            {
+                "name": "LAXANTES",
+                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+            },
+            {
+                "name": "ANTIFÚNGICOS",
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+            },
+            {
+                "name": "ANTIHISTAMÍNICOS",
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+            }
+        ]
     },
     {
-        "name": "Farmacia 4"
+        "name": "Farmacia 4",
+        "categorias": [
+            {
+                "name": "ANALGÉSICOS OPIODES",
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+            },
+            {
+                "name": "ANALGÉSICOS",
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+            },
+            {
+                "name": "ANTIÁCIDOS",
+                "value": ["Almagato","Sucralfato","Tramadol"]
+            },
+            {
+                "name": "ANTIULCEROS / PROTECTOR GASTRICO",
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+            },
+            {
+                "name": "ANTIBIÓTICOS",
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+            },
+            {
+                "name": "ANTIDIARRÉICOS",
+                "value": ["Loperemida", "Alka", "Ad"]
+            },
+            {
+                "name": "LAXANTES",
+                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+            },
+            {
+                "name": "ANTIFÚNGICOS",
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+            },
+            {
+                "name": "ANTIHISTAMÍNICOS",
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+            }
+        ]
     }
 ]

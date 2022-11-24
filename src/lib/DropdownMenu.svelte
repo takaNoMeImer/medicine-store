@@ -4,17 +4,26 @@
 	
 	import MenuItem from './MenuItem.svelte';
 	import { mdiArrowLeft, mdiChevronRight, mdiCog, mdiAccount, mdiAccountBox, mdiSecurity } from '@mdi/js';
+	import { writeKeyComponent, writeDataComponent, numero,nombre } from './store.js'
+    import MyItem from './MyItem.svelte';
 	
 	let activeMenu = 'main';
 	let menuHeight = 0;
 	let menuEl = null;
+	let keyComponent;
+	let dataComponent;
 	
 	$: menuHeight = menuEl?.offsetHeight ?? 0;
+
+	function saveData(dataComponent, keyComponent) {
+		numero.set(20)
+		nombre.set(keyComponent)
+	}
 </script>
 
-<div class="dropdown stack" style="height: {menuHeight}px">
+<div class="mydropdown mystack" style="height: {menuHeight}px">
 	{#if activeMenu === 'main'}
-		<div class="menu" in:fly={{ x: -300 }} out:fly={{ x: -300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: -300 }} out:fly={{ x: -300 }} bind:this={menuEl}>
 			<MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiCog} rightIcon={mdiChevronRight}>Farmacia 1</MenuItem>
 			<MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiCog} rightIcon={mdiChevronRight}>Farmacia 2</MenuItem>
 			<MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiCog} rightIcon={mdiChevronRight}>Farmacia 3</MenuItem>
@@ -22,43 +31,41 @@
 		</div>
 	{/if}
 	
-	<!-- {#if activeMenu === 'profile'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
-			 <MenuItem on:click={() => activeMenu = "main"} leftIcon={mdiArrowLeft}>
-				 Regresar
-			</MenuItem>
-			
-			<MenuItem leftIcon={mdiAccountBox}>Change Picture</MenuItem>
-			<MenuItem leftIcon={mdiSecurity}>Permissions</MenuItem>
-		</div>
-	{/if} -->
-	
 	{#if activeMenu === 'farmacia'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "main"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
 			
 			{#each data[0].categorias as d,index}
-				<MenuItem on:click={ () => activeMenu = d.name } leftIcon={mdiCog}>{d.name}</MenuItem>
+				<MenuItem on:click={ () => {
+					activeMenu = d.name
+				} } leftIcon={mdiCog}>{d.name}</MenuItem>
 			{/each}
 		</div>
 	{/if}
 
 	{#if activeMenu === 'ANALGÉSICOS OPIODES'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
-			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+			 <MenuItem on:click={() => activeMenu = "farmacia"
+			 } leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
 			
 			{#each data[0].categorias[0].value as d,index}
-				<MenuItem leftIcon={mdiCog}>{d}</MenuItem>
+				<!-- <MenuItem leftIcon={mdiCog} on:click={() => saveData(data[0].categorias[0],d)}>{d}</MenuItem> -->
+				<MyItem leftIcon={mdiCog} on:click={() => saveData(data[0].categorias[0],d)}>{d}</MyItem>
 			{/each}
 		</div>
 	{/if}
 
+	<!-- saveData
+					dataComponent = data[0].categorias[0]
+					keyComponent = d
+					saveData -->
+
 	{#if activeMenu === 'ANALGÉSICOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -71,7 +78,7 @@
 
 	<!--  -->
 	{#if activeMenu === 'ANTIÁCIDOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -83,7 +90,7 @@
 	{/if}
 
 	{#if activeMenu === 'ANTIULCEROS / PROTECTOR GASTRICO'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -95,7 +102,7 @@
 	{/if}
 
 	{#if activeMenu === 'ANTIBIÓTICOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -107,7 +114,7 @@
 	{/if}
 
 	{#if activeMenu === 'ANTIDIARRÉICOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -119,7 +126,7 @@
 	{/if}
 
 	{#if activeMenu === 'LAXANTES'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -131,7 +138,7 @@
 	{/if}
 
 	{#if activeMenu === 'ANTIFÚNGICOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -143,7 +150,7 @@
 	{/if}
 
 	{#if activeMenu === 'ANTIHISTAMÍNICOS'}
-		<div class="menu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
+		<div class="mymenu" in:fly={{ x: 300 }} out:fly={{ x: 300 }} bind:this={menuEl}>
 			 <MenuItem on:click={() => activeMenu = "farmacia"} leftIcon={mdiArrowLeft}>
 				 Back
 			</MenuItem>
@@ -157,7 +164,7 @@
 </div>
 
 <style>
-	.dropdown {
+	.mydropdown {
 		position: absolute;
 		top: 58px;
 		left: 7.4rem;
@@ -171,16 +178,16 @@
 		transition: height var(--speed) ease;
 	}
 	
-	.stack {
+	.mystack {
 		display: grid;
 		align-items: start; /* allow to shrink */
 	}
 	
-	.stack > :global(*) {
+	.mystack > :global(*) {
 		grid-area: 1 / 1;
   }
 	
-	.menu {
+	.mymenu {
 		width: 100%;
 	}
 </style>

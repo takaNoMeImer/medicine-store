@@ -1,1 +1,0 @@
-<h1>FarmaClic</h1>

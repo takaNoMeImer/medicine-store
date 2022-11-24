@@ -1,11 +1,11 @@
-<nav class="navbar" style={$$props.style}>
-	<ul class="navbar-nav">
+<nav class="mynavbar" style={$$props.style}>
+	<ul class="mynavbar-nav">
 		<slot />
 	</ul>
 </nav>
 
 <style>
-	.navbar {
+	.mynavbar {
 		height: var(--nav-size);
 		background-color: var(--bg);
 		padding: 0 1rem;
@@ -18,9 +18,10 @@
 		padding: 0;
 	}
 
-	.navbar-nav {
+	.mynavbar-nav {
 		max-width: 100%;
 		height: 100%;
+
 		display: flex;
 		justify-content: flex-start;
 	}

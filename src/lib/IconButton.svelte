@@ -5,12 +5,12 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div class="icon-button" on:click|preventDefault>
+<div class="myiconbutton" on:click|preventDefault>
     <Icon {path} />
 </div>
 
 <style>
-    .icon-button {
+    .myiconbutton {
         --button-size: calc(var(--nav-size) * 0.5);
         width: var(--button-size);
         height: var(--button-size);
@@ -25,7 +25,7 @@
         color: var(--text-color);
     }
 
-    .icon-button:hover {
+    .myiconbutton:hover {
         filter: brightness(1.2);
     }
 </style>

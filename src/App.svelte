@@ -3,21 +3,24 @@
 	import NavBar from "./lib/NavBar.svelte";
 	import NavItem from "./lib/NavItem.svelte";
 	import DropdownMenu from "./lib/DropdownMenu.svelte";
+	import IconButton from "./lib/IconButton.svelte";
 
 	import Contacto from "./lib/Contacto.svelte";
     import Nosotros from "./lib/Nosotros.svelte";
     import ModalInfo from "./lib/ModalInfo.svelte";
+
+	import {mdiArrowDownDropCircleOutline } from '@mdi/js'
 
 </script>
 
 <NavBar>
 	<NavItem>
 		<span class="myicon-drop" slot="trigger">
-			<!-- <IconButton path={mdiMenuDown} /> -->
-			<img
+			<IconButton path={mdiArrowDownDropCircleOutline } />
+			<!-- <img
 				src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/1200px-VisualEditor_-_Icon_-_Menu.svg.png"
 				alt=""
-			/>
+			/> -->
 		</span>
 		<DropdownMenu />
 	</NavItem>

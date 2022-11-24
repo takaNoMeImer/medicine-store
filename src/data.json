@@ -4,39 +4,57 @@
         "categorias": [
             {
                 "name": "ANALGÉSICOS OPIODES",
-                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"],
+                "description": "Solamente se utilizan para el dolor que es intenso y no se alivia con otros tipos de analgésicos. Cuando se usan cuidadosamente y bajo la vigilancia directa de un proveedor de atención médica, estos fármacos pueden ser efectivos para disminuir el dolor. Consulte a su médico antes de tomar el medicamento.",
+                "imagenes": ["Fentanilo.jpeg","Morfina.jpg","Petidina.jpeg","Tramadol.webp"]
             },
             {
                 "name": "ANALGÉSICOS",
-                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"],
+                "description": "Los analgésicos son medicinas que reducen o alivian los dolores de cabeza, musculares, artríticos o muchos otros achaques y dolores. Existen muchos tipos diferentes de analgésicos y cada uno tiene sus ventajas y riesgos. Algunos tipos de dolor responden mejor a determinadas medicinas que a otras. Consulte a su médico antes de tomar el medicamento.",
+                "imagenes": ["Ibuprofeno.jpg.webp", "Dexclorfeniramina.webp", "Metamizol.webp", "Paracetamol.webp"]
             },
             {
                 "name": "ANTIÁCIDOS",
-                "value": ["Almagato","Sucralfato","Tramadol"]
+                "value": ["Almagato","Sucralfato"],
+                "description": "Los antiácidos ayudan a tratar la acidez gástrica (indigestión). Funcionan neutralizando el ácido gástrico que causa dicha acidez. Usted puede comprar muchos antiácidos sin necesidad de una receta médica.",
+                "imagenes": ["Almagato.jpg", "Sucralfato.webp"]
             },
             {
                 "name": "ANTIULCEROS / PROTECTOR GASTRICO",
-               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"],
+               "description": "Los medicamentos antiulcerosos se emplean principalmente en el tratamiento de la úlcera gástrica o y la úlcera duodenal.Su objetivo es aliviar los síntomas, contribuir a la cicatrización de la úlcera y prevenir que vuelva a aparecer. Consulte a su médico antes de tomar el medicamento.",
+               "imagenes": ["Omeprazol.webp", "Pantoprazol.webp", "ranitinida.jpeg"]
             },
             {
                 "name": "ANTIBIÓTICOS",
-                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"],
+                "description": "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación.",
+                "imagenes": ["amoxicilina.jpeg", "ampicilina.jpg", "Amikacina.webp", "AZTREONAM-1-G-1.jpg", "Bencilpenicilina.png"]
             },
             {
                 "name": "ANTIDIARRÉICOS",
-                "value": ["Loperemida", "Alka", "Ad"]
+                "value": ["Loperamida", "Alka Ad"],
+                "description": "Sustancia que se usa para tratar la diarrea (evacuaciones intestinales frecuentes y acuosas).",
+                "imagenes": ["Loperamida_2MG_6C_BE.webp", "AlkaAd.jpg"]
             },
             {
                 "name": "LAXANTES",
-                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+                "value": ["Leche de magnesia", "Ciruelax", "Aceite mineral"],
+                "description": "Un laxante es una preparación usada para provocar la defecación o la eliminación de heces. Los laxantes son mayormente consumidos para tratar el estreñimiento.",
+                "imagenes": ["Magnecia.webp", "CIRUELAX-MINITABS-x100-CL-PY.jpg", "Mineral_oil_bottle.jpg"]
             },
             {
                 "name": "ANTIFÚNGICOS",
-                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"],
+                "description": "antifúngico o antimicótico es toda sustancia que tiene la capacidad de evitar el crecimiento de algunos tipos de hongos o incluso de provocar su muerte. Dado que los hongos además de tener usos beneficiosos para el ser humano (levadura del pan, hongos de fermentación de los quesos, los vinos, la cerveza, entre otros muchos ejemplos) forman parte del colectivo de seres vivos que pueden originar enfermedades en el ser humano. Consulte a su médico antes de tomar el medicamento.",
+                "imagenes": ["AMFOTERICINA-B-50-MG-1.jpg", "Clotrimazol.jpg", "Fluconazol.webp", "Itraconazol.png", "Ketoconazol.webp", "miconazol.jpg"]
             },
             {
                 "name": "ANTIHISTAMÍNICOS",
-                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"],
+                "description": "Tipo de medicamento que bloquea la acción de la histamina, sustancia que puede causar fiebre, picazón, estornudos, mucosidad nasal y lagrimeo. Los antihistamínicos se utilizan para prevenir la fiebre en los pacientes que se someten a transfusiones de sangre y para el tratamiento de alergias, tos y resfriados. Consulte a su médico antes de tomar el medicamento.",
+                "imagenes": ["Dexclorfeniramina.jpeg", "Hidroxina.webp", "Loratadina.jpg", "Difenhidramina.webp"]
             }
         ]
 
@@ -46,39 +64,48 @@
         "categorias": [
             {
                 "name": "ANALGÉSICOS OPIODES",
-                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"],
+                "description": "Solamente se utilizan para el dolor que es intenso y no se alivia con otros tipos de analgésicos. Cuando se usan cuidadosamente y bajo la vigilancia directa de un proveedor de atención médica, estos fármacos pueden ser efectivos para disminuir el dolor. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANALGÉSICOS",
-                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"],
+                "description": "Los analgésicos son medicinas que reducen o alivian los dolores de cabeza, musculares, artríticos o muchos otros achaques y dolores. Existen muchos tipos diferentes de analgésicos y cada uno tiene sus ventajas y riesgos. Algunos tipos de dolor responden mejor a determinadas medicinas que a otras. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIÁCIDOS",
-                "value": ["Almagato","Sucralfato","Tramadol"]
+                "value": ["Almagato","Sucralfato"],
+                "description": "Los antiácidos ayudan a tratar la acidez gástrica (indigestión). Funcionan neutralizando el ácido gástrico que causa dicha acidez. Usted puede comprar muchos antiácidos sin necesidad de una receta médica."
             },
             {
                 "name": "ANTIULCEROS / PROTECTOR GASTRICO",
-               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"],
+               "description": "Los medicamentos antiulcerosos se emplean principalmente en el tratamiento de la úlcera gástrica o y la úlcera duodenal.Su objetivo es aliviar los síntomas, contribuir a la cicatrización de la úlcera y prevenir que vuelva a aparecer. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIBIÓTICOS",
-                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"],
+                "description": "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación."
             },
             {
                 "name": "ANTIDIARRÉICOS",
-                "value": ["Loperemida", "Alka", "Ad"]
+                "value": ["Loperamida", "Alka Ad"],
+                "description": "Sustancia que se usa para tratar la diarrea (evacuaciones intestinales frecuentes y acuosas)."
             },
             {
                 "name": "LAXANTES",
-                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+                "value": ["Leche de magnesia", "Ciruelax", "Aceite mineral"],
+                "description": "Un laxante es una preparación usada para provocar la defecación o la eliminación de heces. Los laxantes son mayormente consumidos para tratar el estreñimiento."
             },
             {
                 "name": "ANTIFÚNGICOS",
-                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"],
+                "description": "antifúngico o antimicótico es toda sustancia que tiene la capacidad de evitar el crecimiento de algunos tipos de hongos o incluso de provocar su muerte. Dado que los hongos además de tener usos beneficiosos para el ser humano (levadura del pan, hongos de fermentación de los quesos, los vinos, la cerveza, entre otros muchos ejemplos) forman parte del colectivo de seres vivos que pueden originar enfermedades en el ser humano. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIHISTAMÍNICOS",
-                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"],
+                "description": "Tipo de medicamento que bloquea la acción de la histamina, sustancia que puede causar fiebre, picazón, estornudos, mucosidad nasal y lagrimeo. Los antihistamínicos se utilizan para prevenir la fiebre en los pacientes que se someten a transfusiones de sangre y para el tratamiento de alergias, tos y resfriados. Consulte a su médico antes de tomar el medicamento."
             }
         ]
     },
@@ -87,39 +114,48 @@
         "categorias": [
             {
                 "name": "ANALGÉSICOS OPIODES",
-                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"],
+                "description": "Solamente se utilizan para el dolor que es intenso y no se alivia con otros tipos de analgésicos. Cuando se usan cuidadosamente y bajo la vigilancia directa de un proveedor de atención médica, estos fármacos pueden ser efectivos para disminuir el dolor. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANALGÉSICOS",
-                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"],
+                "description": "Los analgésicos son medicinas que reducen o alivian los dolores de cabeza, musculares, artríticos o muchos otros achaques y dolores. Existen muchos tipos diferentes de analgésicos y cada uno tiene sus ventajas y riesgos. Algunos tipos de dolor responden mejor a determinadas medicinas que a otras. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIÁCIDOS",
-                "value": ["Almagato","Sucralfato","Tramadol"]
+                "value": ["Almagato","Sucralfato"],
+                "description": "Los antiácidos ayudan a tratar la acidez gástrica (indigestión). Funcionan neutralizando el ácido gástrico que causa dicha acidez. Usted puede comprar muchos antiácidos sin necesidad de una receta médica."
             },
             {
                 "name": "ANTIULCEROS / PROTECTOR GASTRICO",
-               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"],
+               "description": "Los medicamentos antiulcerosos se emplean principalmente en el tratamiento de la úlcera gástrica o y la úlcera duodenal.Su objetivo es aliviar los síntomas, contribuir a la cicatrización de la úlcera y prevenir que vuelva a aparecer. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIBIÓTICOS",
-                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"],
+                "description": "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación."
             },
             {
                 "name": "ANTIDIARRÉICOS",
-                "value": ["Loperemida", "Alka", "Ad"]
+                "value": ["Loperamida", "Alka Ad"],
+                "description": "Sustancia que se usa para tratar la diarrea (evacuaciones intestinales frecuentes y acuosas)."
             },
             {
                 "name": "LAXANTES",
-                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+                "value": ["Leche de magnesia", "Ciruelax", "Aceite mineral"],
+                "description": "Un laxante es una preparación usada para provocar la defecación o la eliminación de heces. Los laxantes son mayormente consumidos para tratar el estreñimiento."
             },
             {
                 "name": "ANTIFÚNGICOS",
-                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"],
+                "description": "antifúngico o antimicótico es toda sustancia que tiene la capacidad de evitar el crecimiento de algunos tipos de hongos o incluso de provocar su muerte. Dado que los hongos además de tener usos beneficiosos para el ser humano (levadura del pan, hongos de fermentación de los quesos, los vinos, la cerveza, entre otros muchos ejemplos) forman parte del colectivo de seres vivos que pueden originar enfermedades en el ser humano. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIHISTAMÍNICOS",
-                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"],
+                "description": "Tipo de medicamento que bloquea la acción de la histamina, sustancia que puede causar fiebre, picazón, estornudos, mucosidad nasal y lagrimeo. Los antihistamínicos se utilizan para prevenir la fiebre en los pacientes que se someten a transfusiones de sangre y para el tratamiento de alergias, tos y resfriados. Consulte a su médico antes de tomar el medicamento."
             }
         ]
     },
@@ -128,39 +164,48 @@
         "categorias": [
             {
                 "name": "ANALGÉSICOS OPIODES",
-                "value": ["Fentanilo","Morfina","Petidina","Tramadol"]
+                "value": ["Fentanilo","Morfina","Petidina","Tramadol"],
+                "description": "Solamente se utilizan para el dolor que es intenso y no se alivia con otros tipos de analgésicos. Cuando se usan cuidadosamente y bajo la vigilancia directa de un proveedor de atención médica, estos fármacos pueden ser efectivos para disminuir el dolor. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANALGÉSICOS",
-                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"]
+                "value": ["Ibuprofeno","Dexketoprofeno","Metamizol","Paracetamol"],
+                "description": "Los analgésicos son medicinas que reducen o alivian los dolores de cabeza, musculares, artríticos o muchos otros achaques y dolores. Existen muchos tipos diferentes de analgésicos y cada uno tiene sus ventajas y riesgos. Algunos tipos de dolor responden mejor a determinadas medicinas que a otras. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIÁCIDOS",
-                "value": ["Almagato","Sucralfato","Tramadol"]
+                "value": ["Almagato","Sucralfato"],
+                "description": "Los antiácidos ayudan a tratar la acidez gástrica (indigestión). Funcionan neutralizando el ácido gástrico que causa dicha acidez. Usted puede comprar muchos antiácidos sin necesidad de una receta médica."
             },
             {
                 "name": "ANTIULCEROS / PROTECTOR GASTRICO",
-               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"]
+               "value": ["Omeprazol", "Pantoprazol", "Ranitidina"],
+               "description": "Los medicamentos antiulcerosos se emplean principalmente en el tratamiento de la úlcera gástrica o y la úlcera duodenal.Su objetivo es aliviar los síntomas, contribuir a la cicatrización de la úlcera y prevenir que vuelva a aparecer. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIBIÓTICOS",
-                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"]
+                "value": ["Amoxicilina", "Ampicilina", "Amikacina", "Aztreonam", "Bencilpenicilina"],
+                "description": "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación."
             },
             {
                 "name": "ANTIDIARRÉICOS",
-                "value": ["Loperemida", "Alka", "Ad"]
+                "value": ["Loperamida", "Alka Ad"],
+                "description": "Sustancia que se usa para tratar la diarrea (evacuaciones intestinales frecuentes y acuosas)."
             },
             {
                 "name": "LAXANTES",
-                "value": ["leche de magnesia", "ciruelax", "aceite mineral"]
+                "value": ["Leche de magnesia", "Ciruelax", "Aceite mineral"],
+                "description": "Un laxante es una preparación usada para provocar la defecación o la eliminación de heces. Los laxantes son mayormente consumidos para tratar el estreñimiento."
             },
             {
                 "name": "ANTIFÚNGICOS",
-                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"]
+                "value": ["Anfotericina", "Clotrimazol", "Fluconazol", "Itraconazol", "Ketoconazol", "Miconazol"],
+                "description": "antifúngico o antimicótico es toda sustancia que tiene la capacidad de evitar el crecimiento de algunos tipos de hongos o incluso de provocar su muerte. Dado que los hongos además de tener usos beneficiosos para el ser humano (levadura del pan, hongos de fermentación de los quesos, los vinos, la cerveza, entre otros muchos ejemplos) forman parte del colectivo de seres vivos que pueden originar enfermedades en el ser humano. Consulte a su médico antes de tomar el medicamento."
             },
             {
                 "name": "ANTIHISTAMÍNICOS",
-                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"]
+                "value": ["Dexclorfeniramina", "Hidroxicina", "Loratadina", "Difenhidramina"],
+                "description": "Tipo de medicamento que bloquea la acción de la histamina, sustancia que puede causar fiebre, picazón, estornudos, mucosidad nasal y lagrimeo. Los antihistamínicos se utilizan para prevenir la fiebre en los pacientes que se someten a transfusiones de sangre y para el tratamiento de alergias, tos y resfriados. Consulte a su médico antes de tomar el medicamento."
             }
         ]
     }

@@ -7,7 +7,7 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="mymenu-item" on:click|preventDefault>
+<div data-bs-toggle="modal" data-bs-target="#exampleModal" class="mymenu-item" href="#contacto" on:click|preventDefault>
     <IconButton path={leftIcon ?? ""} />
 
     <slot />
@@ -22,10 +22,10 @@
 <style>
     .mymenu-item {
         margin-left: 1rem;
-        height: 40px;
+        height: 50px;
         display: grid;
         grid-template-columns: auto 1fr auto;
-        gap: 8px;
+        gap: 10px;
         align-items: center;
         border-radius: var(--border-radius);
         transition: background var(--speed);

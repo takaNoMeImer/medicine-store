@@ -4,19 +4,10 @@
 	import NavItem from "./lib/NavItem.svelte";
 	import DropdownMenu from "./lib/DropdownMenu.svelte";
 
-	import {
-		writeKeyComponent,
-		writeDataComponent,
-		numero,
-		nombre,
-	} from "../src/lib/store.js";
 	import Contacto from "./lib/Contacto.svelte";
     import Nosotros from "./lib/Nosotros.svelte";
     import ModalInfo from "./lib/ModalInfo.svelte";
 
-	function saveData() {
-		nombre.set("Imer");
-	}
 </script>
 
 <NavBar>
@@ -46,7 +37,7 @@
 <main>
 	<p>FarmaClic</p>
 </main>
-<!-- <ModalInfo /> -->
+<ModalInfo />
 <Nosotros />
 <Contacto />
 

@@ -1,13 +1,6 @@
-<!-- Button trigger modal -->
-<button
-    type="button"
-    class="btn btn-primary"
-    data-bs-toggle="modal"
-    data-bs-target="#exampleModal"
->
-    Launch demo modal
-</button>
-
+<script>
+    import { categoria, medicamento, descripcion, imagen } from './store'
+</script>
 <!-- Modal -->
 <div
     class="modal fade"
@@ -20,7 +13,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Modal title
+                    Medicamento
                 </h1>
                 <button
                     type="button"
@@ -29,7 +22,12 @@
                     aria-label="Close"
                 />
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+                <h4>Categoria: {$categoria}</h4>
+                <h4>Medicamento: {$medicamento}</h4>
+                <img src={`/${$imagen}`} alt="">
+                <p>{$descripcion}</p>
+            </div>
             <div class="modal-footer">
                 <button
                     type="button"
@@ -40,3 +38,18 @@
         </div>
     </div>
 </div>
+
+<style>
+    .modal {
+        color: black;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body img {
+        width: 50%;
+    }
+    .modal-body p {
+        text-align: justify;
+    }
+</style>

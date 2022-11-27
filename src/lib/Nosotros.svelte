@@ -3,16 +3,16 @@
 </script>
 
 <div id="nosotros" class="nosotros">
-    <h1 style="color: black; text-align: center; text-transform: uppercase; color:white;">Sobre Nosotros</h1>
+    <h1 style="color: black; text-align: center; text-transform: uppercase; color:white;border-bottom:1px solid white;">Sobre Nosotros</h1>
     <div class="mycard">
         <div class="mytext">
-            <h2>Objetivo</h2>
+            <h2 style="border-bottom:1px solid white;">Objetivo</h2>
             <p>{objetivo.objetivo[0]}</p>
             <p>{objetivo.objetivo[1]}</p>
             <p>{objetivo.objetivo[2]}</p>
         </div>
         <div class="contacto-nosotros">
-            <h2>Contacto</h2>
+            <h2 style="border-bottom:1px solid white;">Contacto</h2>
             <p style="font-size: 1.4rem;text-align:left;margin-left:1rem;">Telefonos: </p>
             <ul class="ul-contacto">
                 <li>{objetivo["Número de contacto"][0]}</li>
@@ -22,7 +22,7 @@
                 <li>{objetivo["Número de contacto"][4]}</li>
             </ul>
 
-            <p style="font-size: 1.4rem;text-align:left;margin-left:1rem;">Correo: </p>
+            <p style="font-size: 1.4rem;text-align:left;margin-left:1rem;border-bottom:1px solid white;">Correo: </p>
             <ul class="ul-contacto">
                 <li>{objetivo.Correo}</li>
             </ul>
@@ -66,5 +66,24 @@
     }
     .mytext, .contacto-nosotros {
         width: 50%;
+    }
+    @media (max-width: 600px) {
+        .mycard {
+            width: 100%;
+            display: block;
+        }
+        .mytext, .contacto-nosotros {
+            width: 100%;
+        }
+        .contacto-nosotros h2 {
+            text-align: left;
+            margin-left: 0;
+            padding: 0;
+        }
+        ul {
+            margin-left: 0;
+            padding: 0;
+            margin: 0;
+        }
     }
 </style>

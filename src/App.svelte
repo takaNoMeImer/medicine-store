@@ -85,7 +85,6 @@
 
 		font-family: Helvetica;
 	}
-	.myicon-drop img,
 	.myicon-drop2 img {
 		width: 50px;
 	}
